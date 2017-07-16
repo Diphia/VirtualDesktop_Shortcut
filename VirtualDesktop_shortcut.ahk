@@ -36,8 +36,9 @@ return
 	send,#{tab}
 	sleep,150
 	send,{tab}
-	send,{right}
-	send,{right}
+    loop,2{
+        send,{right}
+    }
 	send,{enter}
 return
 
@@ -46,8 +47,27 @@ return
 	send,#{tab}
 	sleep,150
 	send,{tab}
-	send,{right}
-	send,{right}
-	send,{right}
+    loop,3{
+        send,{right}
+    }
 	send,{enter}
 return
+
+!5::
+	send,#{tab}
+	sleep,150
+	send,{tab}
+    loop,4{
+        send,{right}
+    }
+	send,{enter}
+return
+
+!6::
+	send,#{tab}
+	sleep,150
+	send,{tab}
+    loop,5{
+        send,{right}
+    }
+	send,{enter}
