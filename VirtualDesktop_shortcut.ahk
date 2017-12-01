@@ -71,3 +71,12 @@ return
         send,{right}
     }
 	send,{enter}
+
+!7::
+	send,#{tab}
+	sleep,150
+	send,{tab}
+    loop,6{
+        send,{right}
+    }
+	send,{enter}
